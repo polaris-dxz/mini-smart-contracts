@@ -1,0 +1,17 @@
+{
+  "name": "mini-smart-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "console": "geth --datadir ./geth-test/ --networkid 98 console --rpc.enabledeprecatedpersonal",
+    "solc": "solcjs --bin contracts/helloworld.sol",
+    "abi": "solcjs --abi contracts/helloworld.sol"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "solc": "^0.8.23-fixed"
+  }
+}
